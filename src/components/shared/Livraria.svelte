@@ -10,9 +10,9 @@
         class="grid grid-cols-1 justify-items-center md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-5 px-10 md:p-5 text-center"
     >
         {#each livraria as lv}
-            <a
-                href={lv.link_compra}
-                target="_blank"
+        <!-- href={lv.link_compra}
+        target="_blank" -->
+            <div
                 class="flex flex-col gap-5 my-5 md:my-0 rounded-sm dark:bg-zinc-800/50 hover:bg-zinc-700 bg-zinc-300 p-5 max-w-80"
             >
                 <div class="relative flex flex-col">
@@ -39,7 +39,7 @@
                     />
                     <Titulo principalMenor={lv.título} secundario={lv.autor} />
                 </div>
-            </a>
+            </div>
         {/each}
     </div>
     <p class="text-center text-base text-zinc-500">
