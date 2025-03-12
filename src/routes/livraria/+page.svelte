@@ -7,7 +7,7 @@
     <Titulo
       before="Livros sobre o"
       key="Verbo"
-      after="Livros que alimentam a fé e iluminam o coração."
+      after="Indicações de livros que alimentam a fé e iluminam o coração."
       />
       <Livraria />
   </div>

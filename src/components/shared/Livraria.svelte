@@ -1,28 +1,25 @@
 <script lang="ts">
     import livraria from "../../constants/livraria/livraria.json";
-    import Citacao from "./Citacao.svelte";
     import CopiarTexto from "./CopiarTexto.svelte";
     import Salvar from "./Salvar.svelte";
     import Titulo from "./Titulo.svelte";
 </script>
 
-<Citacao />
-
 {#if livraria}
     <div
-        class="md:grid sm:flex sm:flex-col md:grid-cols-3 lg:grid-cols-4 gap-5 px-10 md:px-5"
+        class="grid grid-cols-1 justify-items-center md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-5 px-10 md:p-5 text-center"
     >
         {#each livraria as lv}
             <a
                 href={lv.link_compra}
                 target="_blank"
-                class="flex flex-col gap-5 my-5 md:my-0 rounded-sm dark:bg-zinc-900 bg-zinc-300 p-5"
+                class="flex flex-col gap-5 my-5 md:my-0 rounded-sm dark:bg-zinc-800/50 hover:bg-zinc-700 bg-zinc-300 p-5 max-w-80"
             >
                 <div class="relative flex flex-col">
                     <img
                         src={lv.imagem}
                         alt="Imagem do livro"
-                        class="h-auto lg:h-80 md:h80 object-fill overflow-hidden rounded-sm"
+                        class="max-h-96 object-fill overflow-hidden rounded-sm"
                     />
                     <Salvar
                         reference={lv.link_compra}

@@ -12,12 +12,6 @@
         "imagem": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1617046541i/57570115.jpg"
     },
     {
-        "título": "Ego Transformado",
-        "autor": "Timothy Keller",
-        "link_compra": "https://amzn.to/4hnuOW1",
-        "imagem": "https://images.tcdn.com.br/img/img_prod/1211412/ego_transformado_17_1_fcaa5787b078be3b7800bd3554a8c006.jpg"
-    },
-    {
         "título": "O Deus que destrói sonhos",
         "autor": "Rodrigo Bibo",
         "link_compra": "https://amzn.to/41VGqet",
@@ -190,6 +184,12 @@
         "autor": "Harold Walker",
         "link_compra": "https://amzn.to/3XHETpS",
         "imagem": "https://m.media-amazon.com/images/I/51cCs9rYgVL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "Ego Transformado",
+        "autor": "Timothy Keller",
+        "link_compra": "https://amzn.to/4hnuOW1",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/1211412/ego_transformado_17_1_fcaa5787b078be3b7800bd3554a8c006.jpg"
     },
     {
         "título": "No Vale da Sombra da Morte",
