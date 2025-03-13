@@ -13,7 +13,7 @@
             <a
                 href={lv.link_compra}
                 target="_blank"
-                class="flex flex-col gap-5 my-5 md:my-0 rounded-sm dark:bg-zinc-800/50 bg-zinc-300 p-5 max-w-80"
+                class="flex flex-col gap-5 my-5 md:my-0 rounded-sm dark:bg-zinc-800 bg-zinc-300 p-5 max-w-80 text-center"
             >
 
             <div class="relative flex flex-col">
@@ -26,7 +26,7 @@
                     reference={lv.link_compra}
                     text={lv.título}
                     autor={lv.autor}
-                    verse={lv.imagem}
+                    verse={null}
                     traducao={null}
                     citacao=""
                 />
